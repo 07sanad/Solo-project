@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  background-color: rgb(22, 22, 22);
+  box-sizing: border-box;
+  width: 120%;
+  padding-top: 0px;
+  border-radius: 10px;
+  
+}
+body{
+
+  width: 25%;
+  padding: 20px;
+  margin: 20px;
+  background-color: #21222b;
+  color: white;
+}
+.profile-el{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div > .profile-foto{
+  margin-bottom: 12px;
+}
+div > .name{
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+div> .job {
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: plum;
+}
+div > .address {
+  margin-bottom: 12px;
+  font-size: 9px;
+}
+.button{
+  display: flex;
+  gap: 12px;
+}
+.button > .email, .button> .linkedin{
+  width: 105px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.button>.email{
+  border: 1px solid white;
+  cursor: pointer;
+}
+.button> .linkedin{
+  cursor: pointer;
+  background-color: rgb(107, 148, 226);
+  color: white;
+  border: 1px solid rgb(107, 148, 226);
+}
+.button>.linkedin:hover{
+  background-color: rgb(38, 38, 240);
+}
+.about-el{
+  padding: 25px;
+}
+.about{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+div .about-text{
+  text-align: justify;
+}
+.interest-el{
+  padding: 25px;
+}
+.interest{
+  margin-bottom: 5px;
+}
+div  .interest-text{
+  text-align: justify;
+}
+.footer-el{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  height: 50px;
+  
+}
+
+
+
+
